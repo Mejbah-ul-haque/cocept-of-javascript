@@ -39,3 +39,26 @@ console.log(bookList);
 // Add the first item from the array
 bookList = ["Zohra"].concat(bookList);
 console.log(bookList);
+
+// Conditional
+var bookPrice = 120;
+
+if (bookPrice > 120) {
+  console.log("I will buy this book.");
+} else {
+  console.log("I have no money to buy this...");
+}
+console.log();
+
+// Loop
+var i = 0;
+while (i <= 17) {
+  console.log("This very much interesting.");
+  i++;
+}
+
+for (var i = 0; i < 17; i++) {
+  console.log("Oh! it's great, awesome.");
+}
+
+// Function
