@@ -16,6 +16,9 @@ console.log(bookCount);
 var kalbelaIndex = bookList.indexOf("Kalbela");
 console.log(kalbelaIndex);
 
+// Array indexes start from 0.
+// -1 means there is no number or value!
+
 // Index Element
 var thirdElement = bookList[2];
 console.log(thirdElement);
@@ -53,12 +56,19 @@ console.log();
 // Loop
 var i = 0;
 while (i <= 17) {
+  console.log(i);
   console.log("This very much interesting.");
   i++;
 }
 
 for (var i = 0; i < 17; i++) {
+  console.log(i);
   console.log("Oh! it's great, awesome.");
 }
 
 // Function
+function startFan() {
+  console.log("Walk towards the switch.");
+  console.log("press the switch.");
+}
+startFan();
