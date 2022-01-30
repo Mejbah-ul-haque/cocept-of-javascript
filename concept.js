@@ -1,10 +1,10 @@
-// Variable :
+//  1. Variable :
 
 var time = "10:15pm"; //Srting variable
 var bookPrice = 150; //Neumeric variable
 var isWhiteColor = false; //boolean variable
 
-// Array
+// 2.  Array
 var bookList = ["Sonar Tory", "Khoabnama", "Kalbela", "Ekattor", "Lojja"];
 console.log(bookList);
 
@@ -43,7 +43,7 @@ console.log(bookList);
 bookList = ["Zohra"].concat(bookList);
 console.log(bookList);
 
-// Conditional
+//  3. Conditional
 var bookPrice = 120;
 
 if (bookPrice > 120) {
@@ -53,8 +53,8 @@ if (bookPrice > 120) {
 }
 console.log();
 
-// Loop
-var i = 0;
+// 4. Loop
+var i = 0; // loop variable
 while (i <= 17) {
   console.log(i);
   console.log("This very much interesting.");
@@ -73,9 +73,16 @@ function startFan() {
 }
 startFan();
 
-// Function Parameter
+// You can call the function one or more times when it needed. But you do not call the loop again and again. This is the focus point or defferance between function and loop.
+
+console.log("Take breakfast.");
+console.log("You have to go the market.");
+console.log("Oh! it's great!");
+startFan();
+
+// Function Parameter, function return (someone call arguments as parameter. )
 function bringSingara(taka) {
-  console.log("singara-r jonno dese tk.", taka);
+  console.log("singara-r jonno dise tk.", taka);
   console.log("mama, singara den.");
 
   var singaraPrice = 10;
