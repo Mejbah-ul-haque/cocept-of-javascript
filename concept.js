@@ -244,3 +244,16 @@ for (var i = 0; i < numbers.length; i++) {
   }
   console.log(number);
 }
+
+for (let i = 10; i >= 10; i--) {
+  console.log(i);
+}
+
+// Inch to feet convert
+function inchToFeet(inches) {
+  let feet = inches / 12;
+  return feet;
+}
+let myInches = 132;
+let myfeet = inchToFeet(myInches);
+console.log(myfeet);
