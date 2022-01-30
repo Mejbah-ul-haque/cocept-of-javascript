@@ -66,7 +66,7 @@ for (var i = 0; i < 17; i++) {
   console.log("Oh! it's great, awesome.");
 }
 
-// Function
+//  5. Function
 function startFan() {
   console.log("Walk towards the switch.");
   console.log("press the switch.");
@@ -137,3 +137,11 @@ function divideTwoNumbers(num1, num2) {
 
 var total = divideTwoNumbers(5, 100);
 console.log("Total numbers after divedation is : ", total);
+
+// 6. Object
+var mobile = {
+  color: "black",
+  price: 20000,
+  screenSize: 5,
+  storage: "16GB",
+};
