@@ -1,0 +1,12 @@
+{
+18,
+  "files.autoSave": "onFocusChange",
+  "search.showLineNumbers": true,
+  "notebook.lineNumbers": "on",
+  "editor.wordWrap": "on",
+  "debug.console.fontSize": 18,
+  "editor.lineHeight": 1.6,
+  "scm.inputFontSize": 16,
+  "editor.fontSize": 18,
+  cursorStyle": "line"
+}

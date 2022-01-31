@@ -249,7 +249,7 @@ for (let i = 10; i >= 10; i--) {
   console.log(i);
 }
 
-// Inch to feet convert
+// Inch to feet convert by function
 function inchToFeet(inches) {
   let feet = inches / 12;
   return feet;
