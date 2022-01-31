@@ -210,7 +210,7 @@ switch (color) {
     console.log("color is black");
 }
 
-// Break and Continue
+// Break and Continue //
 
 var i = 0;
 while (i < 10) {
